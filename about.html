@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DacayoWeb.com</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #111111;
+    }
+
+    /* Header */
+    .header {
+      background-color: #111111;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    /* Nav bar */
+    .navbar {
+      overflow: hidden;
+      background-color: #fc4242;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 16px;
+    }
+
+    .navbar:hover {
+        background-color: #fc4242;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+      color: white;
+    }
+
+    /* Sidebar */
+    .side {
+      flex: 30%;
+      padding: 20px;
+    }
+
+    .side img,
+    .main img {
+      background-color: #ccc;
+      width: 100%;
+      height: 150px;
+      display: block;
+      margin: 10px 0;
+    }
+
+    .main {
+      flex: 50%;
+      padding: 20px;
+    }
+
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      height: 200px;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #ddd;
+      text-align: center;
+      padding: 20px;
+    }
+ 
+    @media screen and (max-width: 768px) {
+      .row {
+        flex-direction: column;
+      }
+    }
+    .about-section {
+  background-color: #f8f8ff;
+  padding: 4rem 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: #2c2c2c;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-section h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  color: #fc4242;
+}
+
+.about-section .intro {
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  width: 280px;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-card h2 {
+  color: #1d3557;
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+}
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Behind the Screen</h1>
+    <p>Welcome to the Animeverse</p>
+  </div>
+
+  <div class="navbar">
+    <a href="index.html">HOME</a>
+    <a href="index2.html">TRENDING</a>
+    <a href="about.html">ABOUT</a>
+    <a href="support.html">SUPPORT</a>
+  </div>
+
+  <section class="about-section">
+    <div class="container">
+      <h1>About Us</h1>
+      <p class="intro">
+        Welcome to <strong>OtakuVerse</strong> – your ultimate destination for all things anime! Whether you're into shonen, slice of life, isekai, or classic Studio Ghibli vibes, we've got something for every kind of fan.
+      </p>
+      
+      <div class="features">
+        <div class="feature-card">
+          <h2>🎬 Latest Anime News</h2>
+          <p>Stay updated with the newest episodes, reviews, and upcoming releases.</p>
+        </div>
+        <div class="feature-card">
+          <h2>🌟 Fan Community</h2>
+          <p>Join our forums, share fan art, and connect with fellow otakus worldwide.</p>
+        </div>
+        <div class="feature-card">
+          <h2>📚 Anime Guides</h2>
+          <p>New to anime? Our beginner guides and genre breakdowns will get you started right!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="footer" style="margin-top: 50px;">
+    <h2>Copyright 2025 All Rights Reserved by Jhon Lloyd Dacayo</h2>
+  </div>
+</body>
+</html>

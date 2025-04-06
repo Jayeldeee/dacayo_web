@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DacayoWeb.com</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fefefe url('https://wallpapercave.com/wp/wp4923996.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+
+    /* Header */
+    .header {
+      background-color: #111111;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    /* Nav bar */
+    .navbar {
+      overflow: hidden;
+      background-color: #fc4242;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 16px;
+    }
+
+    .navbar:hover {
+        background-color: #fc4242;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+      color: white;
+    }
+
+    /* Sidebar */
+    .side {
+      flex: 30%;
+      padding: 20px;
+    }
+
+    .side img,
+    .main img {
+      background-color: #ccc;
+      width: 100%;
+      height: 150px;
+      display: block;
+      margin: 10px 0;
+    }
+
+    .main {
+      flex: 50%;
+      padding: 20px;
+    }
+
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      height: 200px;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #ddd;
+      text-align: center;
+      padding: 20px;
+    }
+ 
+    @media screen and (max-width: 768px) {
+      .row {
+        flex-direction: column;
+      }
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.8);
+      min-height: 100vh;
+      padding: 3rem 2rem;
+    }
+
+    .support-container {
+      max-width: 800px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 0 10px #fc4242;
+      backdrop-filter: blur(10px);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #ffffff;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .support-options {
+      margin-top: 2rem;
+    }
+
+    .support-options a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      margin: 0.5rem 0;
+      padding: 0.8rem 1rem;
+      background: #fc4242;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+
+    .support-options a:hover {
+      background: #fc4242;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>DacayoWeb</h1>
+    <p>Welcome to the Animeverse</p>
+  </div>
+
+  <div class="navbar">
+    <a href="index.html">HOME</a>
+    <a href="index2.html">TRENDING</a>
+    <a href="about.html">ABOUT</a>
+    <a href="#">SUPPORT</a>
+  </div>
+
+  <div class="overlay">
+    <div class="support-container">
+      <h1>Support Center</h1>
+      <p>Need help with anything on AnimeVerse? Whether you're having issues streaming or have questions about our content, we're here to help!</p>
+
+      <div class="support-options">
+        <a href="mailto:support@animeverse.com">📧 Email Support</a>
+        <a href="/faq">📚 Frequently Asked Questions</a>
+        <a href="/feedback">💬 Send Feedback</a>
+        <a href="/live-chat">🧑‍💻 Live Chat</a>
+      </div>
+
+
+      <footer>
+        &copy;Copyright 2025 All Rights Reserved by Jhon Lloyd Dacayo
+      </footer>
+
+</body>
+</html>

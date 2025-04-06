@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DacayoWeb.com</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #111111;
+    }
+
+    /* Header */
+    .header {
+      background-color: #111111;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    /* Nav bar */
+    .navbar {
+      overflow: hidden;
+      background-color: #fc4242;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 16px;
+    }
+
+    .navbar:hover {
+        background-color: #fc4242;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+      color: white;
+    }
+
+    /* Sidebar */
+    .side {
+      flex: 30%;
+      padding: 20px;
+    }
+
+    .side img,
+    .main img {
+      background-color: #ccc;
+      width: 100%;
+      height: 150px;
+      display: block;
+      margin: 10px 0;
+    }
+
+    .main {
+      flex: 50%;
+      padding: 20px;
+    }
+
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      height: 200px;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #ddd;
+      text-align: center;
+      padding: 20px;
+    }
+ 
+    @media screen and (max-width: 768px) {
+      .row {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>DacayoWeb</h1>
+    <p>Welcome to the Animeverse</p>
+  </div>
+
+  <div class="navbar">
+    <a href="index.html">HOME</a>
+    <a href="index2.html">TRENDING</a>
+    <a href="about.html">ABOUT</a>
+    <a href="support.html">SUPPORT</a>
+  </div>
+
+  <div class="row">
+    <div class="side">
+      <h2>WELCOME</h2>
+      <p>Profile</p>
+      <img src="image1.jpg" alt="PROFILE PICTURE" style="width: 200px; margin-left: 150px;">
+      <p>Step into a world where stories unfold in vibrant colors, emotions run deep, and every frame tells a tale. Whether you're a lifelong otaku, a casual fan, or just beginning your anime journey — you're in the right place.</p>
+
+      <h3>Popular Anime</h3>
+      <p>Top 2 popular anime right now</p>
+      <img src="image2.png" alt="POPULAR" style="width: 500px; height: 250px;">
+      <img src="image3.jpg" alt="POPULAR" style="width: 500px; height: 250px;">
+    
+    </div>
+
+    <div class="main">
+      <h2>SOLO LEVELING</h2>
+      <h5>Action-Adventure-Fantasy</h5>
+      <img src="image4.jpg" alt="Main Image" style="width: 700px; height: 300px;">
+      <p style="color: #fc4242;">Season 1 : 12 Episodes &nbsp; &nbsp; | &nbsp;   &nbsp; Season 2: 13 Episodes</p>
+      <p>Sung Jin-Woo is an E-rank hunter dubbed as the weakest hunter of all mankind. While exploring a supposedly safe dungeon, he and his party encounter an unusual tunnel leading to a deeper area. Enticed by the prospect of treasure, the group presses forward, only to be confronted with horrors beyond their imagination. Miraculously, Jin-Woo survives the incident and soon finds that he now has access to an interface visible only to him. This mysterious system promises him the power he has long dreamed of—but everything comes at a price.</p>
+
+      <h2>SAKAMOTO DAYS</h2>
+      <h5>Action-Comedy</h5>
+      <img src="image5.jpg" alt="Main Image" style="width: 700px; height: 300px;">
+      <p style="color: #fc4242;">11 Episodes</p>
+      <p>The name Tarou Sakamoto once instilled fear in every villain. No other professional hitman matched his prowess, and fellow assassins revered him. However, Sakamoto fell in love. In five short years, he married, became a father, put on some weight, and traded his weapons for an apron as he became the owner of a humble convenience store.</p>
+      
+    </div>
+  </div>
+
+  <div class="footer">
+    <h2>&copy;Copyright 2025 All Rights Reserved by Jhon Lloyd Dacayo</h2>
+  </div>
+
+</body>
+</html>
